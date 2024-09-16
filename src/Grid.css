@@ -1,0 +1,25 @@
+.grid {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #e0e0e0;
+  }
+  
+  .cell:hover {
+    background-color: #c0c0c0;
+  }
+  
